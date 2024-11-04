@@ -5,7 +5,7 @@ from keras.src.saving.saving_api import load_model
 import streamlit as st
 import matplotlib.pyplot as plt
 
-model_path = r'C:\Users\krist\Coding Projects\Stock\Stock Predictions Model.keras'
+model_path = 'Stock Predictions Model.keras'
 model = load_model(model_path)
 
 st.header('Stock Market Predictor')
